@@ -12,18 +12,18 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "JARVIS_V2")
-BOT_USERNAME = getenv("BOT_USERNAME", "Kishu_X_Music_Bot")
-BOT_NAME = getenv("BOT_NAME", "˹𝙺ɪsʜᴜ ✘ 𝙼ᴜsɪᴄ˼")
-ASSUSERNAME = getenv("ASSUSERNAME", "Kishu_Assis")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_Zoro_ll")
+BOT_USERNAME = getenv("BOT_USERNAME", "Anika_shadow_bot")
+BOT_NAME = getenv("BOT_NAME", "Anika_shadow_bot")
+ASSUSERNAME = getenv("ASSUSERNAME", "anika_x_jerry_assistant")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002189403541))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 PLAYHT_API = getenv("PLAYHT_API")
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
+OWNER_ID = int(getenv("OWNER_ID", 6932276594))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/JARVIS_V_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Dora_Hub")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anika_x_shadow_music")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/anika_x_shadow")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
